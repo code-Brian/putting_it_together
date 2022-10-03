@@ -4,7 +4,7 @@ import PersonCard from './components/PersonCard'
 function App() {
   return (
     <div className="App">
-      <PersonCard 
+      <PersonCard
         lastName={ "Marsh" }
         firstName={ "Stan" }
         hairColor={ "Dark brown" }

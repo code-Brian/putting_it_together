@@ -13,6 +13,7 @@ const PersonCard = (props)=> {
             <ul>
                 <li>Age: { age }</li>
                 <li>Hair color: { hairColor }</li>
+                <button onClick={(event)=> setAge(age + 1)}>Add a year!</button>
             </ul>
         </div>
     )
